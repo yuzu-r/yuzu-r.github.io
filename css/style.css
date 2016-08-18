@@ -144,6 +144,15 @@ a{
   padding-left: 20px;
 }
 
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    zoom: 1
+}
+
 @media screen and (max-width: 31.5em) {
   .grid {
     padding: 10px 10px 100px 10px;
