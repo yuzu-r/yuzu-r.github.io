@@ -6,6 +6,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   	<link rel="stylesheet" href="css/style.css">
+  	<script src="js/modernizr.custom.js"></script>
 	</head>
 
 	<body>
@@ -38,29 +39,28 @@
 		<div class="jumbotron portfolio">
 		  <div class="container">
 		    <h3 class="text-center">MY PROJECTS</h3>
-		      <br/><br/>
-		      <div class="row">
-		        <div class="col-md-4">
-		          <div class="figure">
-		            <img class="figure-img img-responsive" src="img/mm.png" alt="tribute page"> 
-		            <div class="figcaption"><h4><a href="www.google.com">Project</a> Placeholder<h4></div>
-		          </div>
-		        </div>
-		        <div class="col-md-4">
-		          <div class="figure">
-		            <img class="img-responsive figure-img" src="img/quotes.png" alt="project">
-		            <figcaption><a href="www.google.com">google</a>
-		          </div>       
-		        </div>
-		        <div class="col-md-4">
-		          <div class="figure">
-		            <img class="img-responsive figure-img" src="img/matsumoto.png">
-		            <div class="figcaption">
-		              <h4>Project Placeholder</h4>
-		            </div>
-		          </div>
-		        </div><!--row-->
-		    </div>
+		    <ul class="grid caption-style">
+		    	<li>
+		    		<figure>
+		    			<img src="img/mm.png" alt="quote generator thumbnail">
+		    			<figcaption>
+		    				<h4>Random Quote Generator</h4>
+		    				<a href="http://www.google.com">Link to site here</a>
+		    				<span>Displays a quote, has admin interface and JSONP endpoint.</span>
+		    			</figcaption>
+		    		</figure>
+		    	</li>
+		    	<li>
+		    		<figure>
+		    			<img src="img/matsumoto.png" alt="chess site thumbnail">
+		    			<figcaption>
+		    				<h4>Kaizen Chess</h4>
+		    				<a href="http://www.google.com">Link to site here</a>
+		    				<span>Play chess with online friends.</span>
+		    			</figcaption>
+		    		</figure>
+		    	</li>
+				</ul>
 		  </div><!-- container -->
 		</div> <!-- jumbotron portfolio -->
 		<span class="anchor-pad" id="contact"></span>
@@ -89,4 +89,5 @@
 		  </div> <!-- container -->
 		</div> <!-- jumbotron contact -->
 	</body>
+	<script src="js/toucheffects.js"></script>
 </html>
