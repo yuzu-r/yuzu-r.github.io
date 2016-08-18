@@ -1,0 +1,112 @@
+body { padding-top: 60px; }
+
+h3 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #EF8354;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.anchor-pad {
+  display: block;
+  height: 60px;
+  margin-top: -60px;
+  visibility: hidden;
+}
+
+.navbar {
+  background-color: #2D3142;
+}
+
+a{
+  color: #Ef8354;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #EF8354;
+  
+}
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #2D3142;
+}
+
+.btn-default {
+  color: #EF8354;
+  border-radius: 0;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus, .btn-default:active:focus {
+  background-color: #BFC0C0;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.jumbotron.about {
+  background: #4F5D75;
+}
+
+.jumbotron.portfolio {
+  background: #BFC0C0;
+}
+
+.jumbotron.contact {
+  background: #4F5D75;
+}
+
+.figcaption {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    z-index: 2;
+}
+
+.figcaption h4{
+  position:absolute;
+  color: transparent;
+  top:50%;
+  left:50%;
+  padding:0;
+  margin:0;
+  -moz-transform:translate(-50%, 75px);
+  -webkit-transform:translate(-50%, 75px);
+  transform:translate(-50%, 75px);
+}
+
+.figure:hover .figcaption h4 {
+  color: #2D3142;
+}
+
+.figure{
+  width: 100%;
+  height: 200px; 
+  overflow: hidden;
+  background:#FFFFFF;
+}
+
+.figure:hover img {
+  opacity: .15;
+}
+
+.display-table{
+  display: table;
+  table-layout: fixed;
+}
+
+.display-cell {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  text-align: right;
+}

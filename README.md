@@ -1,2 +1,2 @@
 # yuzu-r.github.io
-# initial user splash page. serious content to follow - ?
+# This portfolio shows the projects in my github that were not tutorial-driven.

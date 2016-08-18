@@ -1,64 +1,92 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<style>
-			body {
-				background: url('goats.png') no-repeat center center fixed; 
-  				-webkit-background-size: cover;
-  				-moz-background-size: cover;
-  				-o-background-size: cover;
-  				background-size: cover;;
-			}
-
-			h1 {
-				color: white;
-				font-family: 'Helvetica Neue', Helvetica; 
-				font-weight: 200;
-				font-size: 45px;
-				margin: 0px;
-			}
-
-			p {
-				color: white;
-				font-family: 'Helvetica Neue', Helvetica; 
-				font-weight: 100;
-			}
-
-			.box {
-				background-color: rgba(0,0,0,0.4);
-				padding: 15px 15px 15px 20px;
-				width: 350px;
-				margin-top: 90px; 
-				margin-left: 30px;
-			}
-
-			img.small {
-				max-width: 70%;
-				max-height: 70%;
-			}
-
-		</style>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
-		<div class="box">
-			<h1>Tracy Kaneshiro</h1>
-			<p>
-				<i>Admin of My Computer</i>
-			</p>
-			<p>
-				With great power comes great responsibility. Remember this when using sudo. 
-			</p>
-			<p>
-				<a href="https://xkcd.com/149">
-					<img class="small" src=http://imgs.xkcd.com/comics/sandwich.png alt="classic xkcd" />
-				</a>
-			</p>
-			<p>
-				Choose your sandwich wisely.
-			</p>
-		</div>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container">
+		    <a href="#top"><button type="button" class="btn btn-default navbar-btn pull-left">TRACY KANESHIRO</button></a>
+		    <a href="#contact"><button type="button" class="btn btn-default navbar-btn pull-right">CONTACT</button></a>
+		    <a href="#portfolio"><button type="button" class="btn btn-default navbar-btn pull-right">PROJECTS</button></a>
+		    <a href="#about"><button type="button" class="btn btn-default navbar-btn pull-right">ABOUT</button></a>
+		  </div>
+		</nav>
 
+		<span class="anchor-pad" id="about"></span>
+		<div class="jumbotron about">
+		  <div class="container">
+		    <div class="row display-table">
+		    <div class="col-md-4 col-md-offset-1 display-cell">
+		      <img src="img/madmen_square.png" alt="picture of me" class="img-circle">
+		    </div>
+		    
+		      <div class="col-md-6 col-md-offset-1 display-cell">
+		      <p>Exciting stuff about me!</p>
+		      <p>Exciting stuff about me!</p>
+		      <p>Exciting stuff about me!</p>
+		      </div>
+		    </div>
+		  </div>
+		</div> <!-- jumbotron about -->
+		<span class="anchor-pad" id="portfolio"></span>
+		<div class="jumbotron portfolio">
+		  <div class="container">
+		    <h3 class="text-center">MY PROJECTS</h3>
+		      <br/><br/>
+		      <div class="row">
+		        <div class="col-md-4">
+		          <div class="figure">
+		            <img class="figure-img img-responsive" src="img/mm.png" alt="tribute page"> 
+		            <div class="figcaption"><h4><a href="www.google.com">Project</a> Placeholder<h4></div>
+		          </div>
+		        </div>
+		        <div class="col-md-4">
+		          <div class="figure">
+		            <img class="img-responsive figure-img" src="img/quotes.png" alt="project">
+		            <figcaption><a href="www.google.com">google</a>
+		          </div>       
+		        </div>
+		        <div class="col-md-4">
+		          <div class="figure">
+		            <img class="img-responsive figure-img" src="img/matsumoto.png">
+		            <div class="figcaption">
+		              <h4>Project Placeholder</h4>
+		            </div>
+		          </div>
+		        </div><!--row-->
+		    </div>
+		  </div><!-- container -->
+		</div> <!-- jumbotron portfolio -->
+		<span class="anchor-pad" id="contact"></span>
+		<div class="jumbotron contact">
+		  <div class="container">
+		    <h3 class="text-center">CONTACT ME</h3>
+		    <br/>
+		    <p class="text-center">This page was created by me, with a little 
+		      <a target='_blank' href="http://stackoverflow.com/">help</a> 
+		      <a target='_blank' href="http://freecodecamp.com">from</a>
+		      <a target='_blank' href="http://codepen.io">my</a>
+		      <a target='_blank' href="http://getbootstrap.com">internet</a>
+		      <a target='_blank' href="http://coolors.co">friends</a>.
+		    </p>
+		    <br/><br/>
+		    <div class="row display-table">
+		      <div class="col-md-3 display-cell">
+		        <a class="btn btn-default" href="http://github.com/yuzu-r" target="_blank">
+		          <i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+		        <a class="btn btn-default" href="https://www.linkedin.com/in/tracy-kaneshiro-a967235" target="_blank">
+		          <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+		      </div>
+		      <div class="col-md-9 display-cell">
+		        <p>Have a comment or question? I'd love to hear from you!</p> 
+		      </div>
+		  </div> <!-- container -->
+		</div> <!-- jumbotron contact -->
 	</body>
-
 </html>
