@@ -21,6 +21,10 @@ p {
   background-color: #2D3142;
 }
 
+.navbar-toggle {
+  margin-top: 13px;
+}
+
 a{
   color: #Ef8354;
 }
@@ -30,6 +34,11 @@ a{
   color: #EF8354;
   
 }
+
+.nav li a {
+  display: inline;
+}
+
 .btn {
     padding: 14px 24px;
     border: 0 none;
